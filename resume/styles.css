@@ -4,16 +4,16 @@ h1 {
   font-size: 125%;
   margin-top: 25px;
 }
+h2 {
+  font-size: 100%;
+}
 h3 {
+  margin-bottom: 5px;
   line-height: 0.2;
   font-size: 110%;
   margin-top: 25px;
   text-decoration: underline;
   font-weight: normal;
-}
-h2 {
-  font-size: 100%;
-  margin-bottom: 5px;
 }
 /* TODO: add comments explaining the settings everywhere. */
 ul {
