@@ -4,14 +4,14 @@ h1 {
   font-size: 125%;
   margin-top: 25px;
 }
-h2 {
+h3 {
   line-height: 0.2;
   font-size: 110%;
   margin-top: 25px;
   text-decoration: underline;
   font-weight: normal;
 }
-h3 {
+h2 {
   font-size: 100%;
   margin-bottom: 5px;
 }
