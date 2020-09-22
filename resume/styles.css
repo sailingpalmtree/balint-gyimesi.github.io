@@ -1,4 +1,9 @@
-/* Preserve some space in the headers. */
+/* Replicate print layout. Crude, but works. */
+html {
+    margin:    0 auto;
+    max-width: 885px;
+}
+/* Preserve some space in the headers, decrease line heights. */
 h1 {
   line-height: 0.5;
   font-size: 125%;
@@ -15,6 +20,10 @@ h3 {
   margin-top: 0px;
   text-decoration: underline;
   font-weight: normal;
+}
+p {
+  margin-top: 7px;
+  margin-bottom: 7px;
 }
 /* TODO: add comments explaining the settings everywhere. */
 ul {
@@ -58,4 +67,7 @@ a:hover {
   font-style: italic;
   font-size: 90%;
   font-weight: lighter;
+}
+.highlights {
+  margin-left: 10px;
 }
