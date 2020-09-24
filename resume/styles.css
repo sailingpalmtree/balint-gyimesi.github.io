@@ -2,16 +2,20 @@
 html {
     margin:    0 auto;
     max-width: 885px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: 100;
+    line-height: 1.15;
 }
 /* Preserve some space in the headers, decrease line heights. */
 h1 {
   line-height: 0.5;
+  font-style: oblique;
   font-size: 125%;
   margin-top: 30px;
 }
 h2 {
   font-size: 110%;
-  margin-top: 25px;
+  margin-top: 15px;
 /*  margin-bottom: 5px; */
 }
 h3 {
@@ -24,21 +28,26 @@ h3 {
 p {
   margin-top: 7px;
   margin-bottom: 7px;
+  font-size: 95%;
 }
 /* TODO: add comments explaining the settings everywhere. */
 ul {
-  margin-top: 5px;
+  margin-top: 0px;
+}
+li {
+  font-size: 95%;
 }
 .heading{
   text-align: center;
 }
 .name {
-  font-weight: bolder;
+  font-weight: bold;
 }
 .email {
-  font-weight: lighter;
+  font-size: 90%;
 }
 .phone {
+  font-size: 90%;
   font-style: italic;
 }
 .formerly {
@@ -46,11 +55,12 @@ ul {
 }
 .duration {
   font-style: italic;
-  font-size: 90%;
-  font-weight: lighter;
+  font-size: 80%;
+  font-weight: 100;
 }
-.location {
-  font-weight: lighter;
+.location, .note {
+  font-size: 90%;
+  font-weight: 100;
 }
 a {
   font-style: italic;
@@ -65,9 +75,12 @@ a:hover {
 .footer {
   text-align: center;
   font-style: italic;
-  font-size: 90%;
+  font-size: 80%;
   font-weight: lighter;
 }
 .highlights {
   margin-left: 10px;
+}
+.duration.right-adjusted{
+  float: right;
 }
