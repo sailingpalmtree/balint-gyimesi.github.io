@@ -1,0 +1,3 @@
+pytest
+absl-py
+nest_asyncio

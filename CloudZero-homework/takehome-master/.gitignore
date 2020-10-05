@@ -1,0 +1,3 @@
+*.pyc
+/virtualenv
+/pip-freeze.txt
